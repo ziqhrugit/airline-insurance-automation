@@ -104,7 +104,7 @@ npx playwright install
 
 ---
 
-## ▶️ Running Tests
+## Running Tests
 
 Run all tests:
 

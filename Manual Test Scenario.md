@@ -92,10 +92,10 @@ Session expires - verify insurance state reset
 
 # Playwright with typescript
 
-It has built in auto wait which reduce the flakiness of the tests.=
-Able to test on different types of browser since each browser may behave differently.
-Supports API and UI testing in one framework 
-Easy pipeline integration
+* It has built in auto wait which reduce the flakiness of the tests.
+* Able to test on different types of browser since each browser may behave differently.
+* Supports API and UI testing in one framework 
+* Easy pipeline integration
 
 
 

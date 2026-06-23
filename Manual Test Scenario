@@ -1,6 +1,6 @@
 # Manual Test Scenarios / Test Cases
 
-#System Under Test: Airline booking portal AirAsia with integrated travel insurance
+# System Under Test: Airline booking portal AirAsia with integrated travel insurance
 
 Scenario 1 : 
 Flight Booking and Insurance Selection 
@@ -32,7 +32,7 @@ Verify pricing per passenger
 
  
 
-#Payment & Pricing Validation
+# Payment & Pricing Validation
 
 Scenario 6: Price Accuracy
 Verify insurance price matches provider API
@@ -70,7 +70,7 @@ Scenario 12: Timeout / Retry
 Slow API - verify retry or fallback
 Ensure booking doesn’t break
 
-#Negative & Edge Cases
+# Negative & Edge Cases
 
 Scenario 13: Booking Without Insurance
 Ensure booking works normally
@@ -81,16 +81,16 @@ Add insurance - go back - change flight - verify recalculation
 Scenario 15: Session Timeout
 Session expires - verify insurance state reset
 
-#What Should Be Automated (and Why) 
+# What Should Be Automated (and Why) 
 
-*Test cases that needed to be automate often involves with high risk, needs stability and repeatable flows for eg:
-*End to end booking with insurance - this is due to core business flow and may cause some big impact if there is flaws.
-*Validating Pricing - if pricing is not accurate, this will lead to the lost of funds in the company.
-*Payment flow - Ensure final transaction is smooth until payment is made with successful message.
+* Test cases that needed to be automate often involves with high risk, needs stability and repeatable flows for eg:
+* End to end booking with insurance - this is due to core business flow and may cause some big impact if there is flaws.
+* Validating Pricing - if pricing is not accurate, this will lead to the lost of funds in the company.
+* Payment flow - Ensure final transaction is smooth until payment is made with successful message.
 
-##Automation Framework used:
+## Automation Framework used:
 
-#Playwright with typescript
+# Playwright with typescript
 
 It has built in auto wait which reduce the flakiness of the tests.=
 Able to test on different types of browser since each browser may behave differently.
